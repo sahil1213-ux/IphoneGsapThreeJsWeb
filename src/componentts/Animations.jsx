@@ -16,7 +16,7 @@ export const animateWithGsap = (
       trigger: target,
       toggleActions: isRestart
         ? "restart reverse restart reverse"
-        : "restart none none none", // onEnter, onLeave, onEnterBack, onLeaveBack
+        : "play none none none none", // onEnter, onLeave, onEnterBack, onLeaveBack
       start: "top 80%", // when the top of the trigger hits the top of the viewport means
       ...scrollProps,
     },
